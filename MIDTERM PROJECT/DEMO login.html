@@ -2,12 +2,81 @@
 <html>
 <head>
 	<title>DEMO login</title>
+
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: Century Gothic;
+			background: #2c2c2c;
+		}
+		.container{
+			width: 300px;
+			padding: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: #191919;
+			text-align: center;
+			border-radius: 20px;
+			box-shadow: 5px 5px 50px rgba(0,0,0,0.6);
+		}
+		.container input[type = "text"],.container input[type = "password"]{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			font-weight: bold;
+			border: 2px solid #3498db;
+			padding: 14px 10px;
+			width: 200px;
+			border-radius: 24px;
+			outline: none;
+			color: #fff;
+			font-family: Century Gothic;
+		}
+
+		.container h1{
+			color: #fff;
+			font-weight: bold;
+		}	
+
+		.container input[type = "submit"]{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid #2ecc71;
+			padding: 12px 40px;
+				font-weight: bold;
+			width: 200px;
+			border-radius: 24px;
+			outline: none;
+			color: #fff;
+			font-family: Century Gothic;
+
+		}
+		.container input[type = "submit"]:hover{
+			background-color: #2ecc71;
+		}
+
+
+
+	</style>
 </head>
 <body>
 
-	<form>
-		Username: <input type="text" id="uname"> <br>
-		Password: <input type="password" id="pswrd"> <br>
+
+
+	<form class="container">
+
+		<h1>LOGIN</h1>
+		<input type="text" placeholder="Username" id="uname">
+		<input type="password" placeholder="Password" id="pswrd">
 
 		<input type="submit" onclick="login()" value="LOGIN">
 	</form>
