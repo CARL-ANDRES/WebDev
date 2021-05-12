@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+<style type="text/css">
+
+	body{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(..ucu.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+
+}
+	ul{
+		float: right;
+		list-style-type: none;
+		margin-top: 30px;
+		text-transform: uppercase;
+	}
+
+	ul li{
+		display: inline-block;
+	}
+
+	ul li a{
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s ease;
+		padding: 10px 45px;
+		border: 2px solid #fff;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	ul li a:hover{
+		background-color: red;
+	}
+	img{
+		width: 9%;
+		height: 17%;
+		position: absolute;
+		top: 15%;
+		left: 46%
+	}
+	.ucu{
+		position: absolute;
+		font-size: 30px;
+		color: #000;
+		top: 35%;
+		left: 35.3%;
+		background: #f2f2f2;
+		font-weight: bold;
+		padding: 5px 8px;
+	}
+	p{
+		position: absolute;
+		font-size: 18px;
+		color: #fff;
+		top: 45%;
+		left: 12%;
+		right: 10%;
+		font-size: 20px;
+
+	}
+ .teacher img{
+ 	position: absolute;
+ 	top: 80%;
+ 	width: 17%;
+ 	height: 25%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+
+ }
+ .teacher p{
+ 	position: absolute;
+ 	top: 105%;
+ 	width: 15%;
+ 	left: 43%;
+ 	font-size: 15px;
+ 	text-align: center;
+}
+ .adane img{
+ 	position: absolute;
+ 	top: 130%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 5%;
+ 	border: 5px solid #000;
+ }
+
+ .adane p{
+ 	position: absolute;
+ 	top: 150%;
+ 	width: 15%;
+ 	left: 5%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .agustin img{
+ 	position: absolute;
+ 	top: 130%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 25%;
+ 	border: 5px solid #000;
+ }
+ .agustin p{
+ 	position: absolute;
+ 	top: 150%;
+ 	width: 15%;
+ 	left: 25%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .alberto img{
+ 	position: absolute;
+ 	top: 130%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 45%;
+ 	border: 5px solid #000;
+ }
+ .alberto p{
+ 	position: absolute;
+ 	top: 150%;
+ 	width: 15%;
+ 	left: 45%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+
+  .ancheta img{
+ 	position: absolute;
+ 	top: 130%;
+ 	width: 6%;
+ 	height: 20%;
+ 	left: 65%;
+ 	border: 5px solid #000;
+ }
+ .ancheta p{
+ 	position: absolute;
+ 	top: 150%;
+ 	width: 15%;
+ 	left: 61%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .antimano img{
+ 	position: absolute;
+ 	top: 130%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 80%;
+ 	border: 5px solid #000;
+ }
+ .antimano p{
+ 	position: absolute;
+ 	top: 150%;
+ 	width: 15%;
+ 	left: 80%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .braga img{
+ 	position: absolute;
+ 	top: 170%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .braga p{
+ 	position: absolute;
+ 	top: 190%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .casamayor img{
+ 	position: absolute;
+ 	top: 170%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .casamayor p{
+ 	position: absolute;
+ 	top: 190%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .cervantes img{
+ 	position: absolute;
+ 	top: 170%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .cervantes p{
+ 	position: absolute;
+ 	top: 190%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .conte img{
+ 	position: absolute;
+ 	top: 170%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .conte p{
+ 	position: absolute;
+ 	top: 190%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .dimaala img{
+ 	position: absolute;
+ 	top: 170%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .dimaala p{
+ 	position: absolute;
+ 	top: 190%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+
+.igros img{
+ 	position: absolute;
+ 	top: 210%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .igros p{
+ 	position: absolute;
+ 	top: 230%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .joaquin img{
+ 	position: absolute;
+ 	top: 210%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .joaquin p{
+ 	position: absolute;
+ 	top: 230%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+
+ .juaneza img{
+ 	position: absolute;
+ 	top: 210%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .juaneza p{
+ 	position: absolute;
+ 	top: 230%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.lacambra img{
+ 	position: absolute;
+ 	top: 210%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .lacambra p{
+ 	position: absolute;
+ 	top: 230%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.lavictoria img{
+ 	position: absolute;
+ 	top: 210%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .lavictoria p{
+ 	position: absolute;
+ 	top: 230%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.luzon img{
+ 	position: absolute;
+ 	top: 250%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .luzon p{
+ 	position: absolute;
+ 	top: 270%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.madriaga img{
+ 	position: absolute;
+ 	top: 250%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .madriaga p{
+ 	position: absolute;
+ 	top: 270%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.manibog img{
+ 	position: absolute;
+ 	top: 250%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .manibog p{
+ 	position: absolute;
+ 	top: 270%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .manzano img{
+ 	position: absolute;
+ 	top: 250%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .manzano p{
+ 	position: absolute;
+ 	top: 270%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.munar img{
+ 	position: absolute;
+ 	top: 250%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .munar p{
+ 	position: absolute;
+ 	top: 270%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .nepales img{
+ 	position: absolute;
+ 	top: 290%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .nepales p{
+ 	position: absolute;
+ 	top: 310%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .nosis img{
+ 	position: absolute;
+ 	top: 290%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .nosis p{
+ 	position: absolute;
+ 	top: 310%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .obedoza img{
+ 	position: absolute;
+ 	top: 290%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .obedoza p{
+ 	position: absolute;
+ 	top: 310%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .obillo img{
+ 	position: absolute;
+ 	top: 290%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .obillo p{
+ 	position: absolute;
+ 	top: 310%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .pacabis img{
+ 	position: absolute;
+ 	top: 290%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .pacabis p{
+ 	position: absolute;
+ 	top: 310%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .palaylay img{
+ 	position: absolute;
+ 	top: 330%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .palaylay p{
+ 	position: absolute;
+ 	top: 350%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .ragusante img{
+ 	position: absolute;
+ 	top: 330%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .ragusante p{
+ 	position: absolute;
+ 	top: 350%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .raymundo img{
+ 	position: absolute;
+ 	top: 330%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .raymundo p{
+ 	position: absolute;
+ 	top: 350%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .serquina img{
+ 	position: absolute;
+ 	top: 330%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .serquina p{
+ 	position: absolute;
+ 	top: 350%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .sibayan img{
+ 	position: absolute;
+ 	top: 330%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .sibayan p{
+ 	position: absolute;
+ 	top: 350%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .silverio img{
+ 	position: absolute;
+ 	top: 370%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .silverio p{
+ 	position: absolute;
+ 	top: 390%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .siores img{
+ 	position: absolute;
+ 	top: 370%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .siores p{
+ 	position: absolute;
+ 	top: 390%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .soriano img{
+ 	position: absolute;
+ 	top: 370%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .soriano p{
+ 	position: absolute;
+ 	top: 390%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+   .subido img{
+ 	position: absolute;
+ 	top: 370%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .subido p{
+ 	position: absolute;
+ 	top: 390%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .tabares img{
+ 	position: absolute;
+ 	top: 370%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 82%;
+ 	border: 5px solid #000;
+ }
+ .tabares p{
+ 	position: absolute;
+ 	top: 390%;
+ 	width: 15%;
+ 	left: 82%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .valencia img{
+ 	position: absolute;
+ 	top: 410%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 2%;
+ 	border: 5px solid #000;
+ }
+ .valencia p{
+ 	position: absolute;
+ 	top: 430%;
+ 	width: 15%;
+ 	left: 2%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .villacuantro img{
+ 	position: absolute;
+ 	top: 410%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 22%;
+ 	border: 5px solid #000;
+ }
+ .villacuantro p{
+ 	position: absolute;
+ 	top: 430%;
+ 	width: 15%;
+ 	left: 22%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+  .yuri img{
+ 	position: absolute;
+ 	top: 410%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 42%;
+ 	border: 5px solid #000;
+ }
+ .yuri p{
+ 	position: absolute;
+ 	top: 430%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+ .zapatero img{
+ 	position: absolute;
+ 	top: 410%;
+ 	width: 15%;
+ 	height: 20%;
+ 	left: 62%;
+ 	border: 5px solid #000;
+ }
+ .zapatero p{
+ 	position: absolute;
+ 	top: 430%;
+ 	width: 15%;
+ 	left: 62%;
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+.blk p{
+	position: absolute;
+ 	top: 115%;
+ 	width: 15%;
+ 	left: 42%;
+ 	font-size: 26px;
+ 	text-align: center;
+ 	background-color: #000;
+ 	padding: 10px 10px;
+ 	border-radius: 5px 5px 5px 5px;
+ 	color: #fff;
+ 	font-weight: bold;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+	
+
+	<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="Gallery.html">Gallery</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="MyProject.html">MyProject</a></li>
+		<li><a href="Education.html">Education</a>
+		</li>
+		<img src="LOGO/ucu logo.png">
+	</ul>
+
+		<div class="ucu">URDANETA CITY UNIVERSITY</div>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;Urdaneta City University (UCU) is a public university founded in 1966 by Dr. Pedro T. Orata with the aim of providing basic to higher education in one place for the students of Urdaneta City. <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Together with the team mayor, Amadeo R. Perez Jr., the founders used the proceeds of the town fiesta to establish its first 2-year General Education course using the facilities of the Urdaneta City National High School.</p>
+
+	<div class="teacher">
+		<img src="CLASS PIC/MEQUIN, CHRISTIAN CACHO.jpg">
+			<p>MEQUIN, CHRISTIAN CACHO<br> INSTRUCTOR</p>
+
+	</div>
+
+		<div class="blk">
+			<p>BSIT-2/ BLOCK-6</p>
+		</div>
+
+		<div class="adane">
+			<img src="CLASS PIC/ADANE, CHAIRLES.jpg">
+				<p>ADANE, CHAIRLES</p>
+		</div>
+	
+		<div class="agustin">
+			<img src="CLASS PIC/AGUSTIN, CRISTIAN PAUL.jpg">
+				<p>AGUSTIN, CRISTIAN PAUL</p>
+		</div>
+
+		<div class="alberto">
+			<img src="CLASS PIC/ALBERTO, GIAN.jpg">
+				<p>ALBERTO, GIAN</p>
+		</div>
+
+		<div class="ancheta">
+			<img src="CLASS PIC/ANCHETA, MICHAEL ANGELO.jpg">
+				<p>ANCHETA, MICHAEL ANGELO</p>
+		</div>
+
+		<div class="antimano">
+			<img src="CLASS PIC/ANTIMANO, MARK.jpg">
+				<p>ANTIMANO, MARK</p>
+		</div>
+
+		<div class="braga">
+			<img src="CLASS PIC/BRAGA, JOMAR.jpg">
+				<p>BRAGA, JOMAR</p>
+		</div>
+
+		<div class="casamayor">
+			<img src="CLASS PIC/CASAMAYOR, HARVEY JIE.jpg">
+				<p>CASAMAYOR, HARVEY JIE</p>
+		</div>
+
+		<div class="cervantes">
+			<img src="CLASS PIC/CERVANTES, VANESSA.jpg">
+				<p>CERVANTES, VANESSA</p>
+		</div>
+
+		<div class="conte">
+			<img src="CLASS PIC/CONTE, JOSHUA JAY.jpg">
+				<p>CONTE, JOSHUA JAY</p>
+		</div>
+
+		<div class="dimaala">
+			<img src="CLASS PIC/DIMAALA, ANGELA.jpg">
+				<p>DIMAALA, ANGELA</p>
+		</div>
+
+		<div class="igros">
+			<img src="CLASS PIC/IGROS, JOSHUA.jpg">
+				<p>IGROS, JOSHUA</p>
+		</div>
+
+
+		<div class="joaquin">
+			<img src="CLASS PIC/JOAQUIN, JUNEL.jpg">
+				<p>JOAQUIN, JUNEL</p>
+		</div>
+
+		<div class="juaneza">
+			<img src="CLASS PIC/JUANEZA, JASMIN.jpg">
+				<p>JUANEZA, JASMIN</p>
+		</div>
+
+		<div class="lacambra">
+			<img src="CLASS PIC/LACAMBRA, ANDREW.jpg">
+				<p>LACAMBRA, ANDREW</p>
+		</div>
+
+
+		<div class="lavictoria">
+			<img src="CLASS PIC/LAVICTORIA, ROSELYN.jpg">
+				<p>LAVICTORIA, ROSELYN</p>
+		</div>
+
+		<div class="luzon">
+			<img src="CLASS PIC/LUZON, LOURENCE.jpg">
+				<p>LUZON, LOURENCE</p>
+		</div>
+
+		<div class="madriaga">
+			<img src="CLASS PIC/MADRIAGA, ROLAINE BEA.jpg">
+				<p>MADRIAGA, ROLAINE BEA</p>
+		</div>
+
+		<div class="manibog">
+			<img src="CLASS PIC/MANIBOG, KENT MICHAEL.jpg">
+				<p>MANIBOG, KENT MICHAEL</p>
+		</div>
+
+		<div class="manzano">
+			<img src="CLASS PIC/MANZANO, JOANNE.jpg">
+				<p>MANZANO, JOANNE</p>
+		</div>
+
+		<div class="munar">
+			<img src="CLASS PIC/MUNAR, JERAMEEL.jpg">
+				<p>MUNAR, JERAMEEL</p>
+		</div>
+
+		<div class="nepales">
+			<img src="CLASS PIC/NEPALES, BENJO.jpg">
+				<p>NEPALES, BENJO</p>
+		</div>
+
+		<div class="nosis">
+			<img src="CLASS PIC/NOSIS, MARY ROSE.jpg">
+				<p>NOSIS, MARY ROSE</p>
+		</div>
+
+		<div class="obedoza">
+			<img src="CLASS PIC/OBEDOZA,  LAILANIE.jpg">
+				<p>OBEDOZA,  LAILANIE</p>
+		</div>
+
+		<div class="obillo">
+			<img src="CLASS PIC/OBILLO, JONEIL.jpg">
+				<p>OBILLO, JONEIL</p>
+		</div>
+
+		<div class="pacabis">
+			<img src="CLASS PIC/PACABIS, ANGELO.jpg">
+				<p>PACABIS, ANGELO</p>
+		</div>
+
+		<div class="palaylay">
+			<img src="CLASS PIC/PALAYLAY,  DEAN PATRICK.jpg">
+				<p>PALAYLAY,  DEAN PATRICK</p>
+		</div>
+
+		<div class="ragusante">
+			<img src="CLASS PIC/RAGUSANTE, CALVIN JASPER.jpg">
+				<p>RAGUSANTE, CALVIN JASPER</p>
+		</div>
+
+		<div class="raymundo">
+			<img src="CLASS PIC/RAYMUNDO,  MARK AUDREY.jpg">
+				<p>RAYMUNDO,  MARK AUDREY</p>
+		</div>
+
+		<div class="serquina">
+			<img src="CLASS PIC/SERQUINA, ERIKA MAE.jpg">
+				<p>SERQUINA, ERIKA MAE</p>
+		</div>
+
+
+		<div class="sibayan">
+			<img src="CLASS PIC/SIBAYAN, MARTIN JEFF.jpg">
+				<p>SIBAYAN, MARTIN JEFF</p>
+		</div>
+
+		<div class="silverio">
+			<img src="CLASS PIC/SILVERIO, DIANA ROSE.jpg">
+				<p>SILVERIO, DIANA ROSE</p>
+		</div>
+
+		<div class="siores">
+			<img src="CLASS PIC/SIORES, ALDRIN.jpg">
+				<p>SIORES, ALDRIN</p>
+		</div>
+
+		<div class="soriano">
+			<img src="CLASS PIC/SORIANO, WILFREDO.jpg">
+				<p>SORIANO, WILFREDO</p>
+		</div>
+
+		<div class="subido">
+			<img src="CLASS PIC/SUBIDO, KRISSIA LYN.jpg">
+				<p>SUBIDO, KRISSIA LYN</p>
+		</div>
+
+		<div class="tabares">
+			<img src="CLASS PIC/TABARES, DANNY.jpg">
+				<p>TABARES, DANNY</p>
+		</div>
+
+		<div class="valencia">
+			<img src="CLASS PIC/VALENCIA, LARRY.jpg">
+				<p>VALENCIA, LARRY</p>
+		</div>
+
+		<div class="villacuantro">
+			<img src="CLASS PIC/VILLACUANTRO, JAY-AR.jpg">
+				<p>VILLACUANTRO, JAY-AR</p>
+		</div>
+
+		<div class="yuri">
+			<img src="CLASS PIC/YURI, JC.jpg">
+				<p>YURI, JC</p>
+		</div>
+
+		<div class="zapatero">
+			<img src="CLASS PIC/ZAPATERO,  KRYSTA JANE.jpg">
+				<p>ZAPATERO,  KRYSTA JANE</p>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
